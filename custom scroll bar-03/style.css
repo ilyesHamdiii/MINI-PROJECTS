@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /* https://grabient.com/HQNhE4BpgFhBmaIDsJowIzOvC0BMArIUhvtKjBRgByQaw1TDwAMr0NM+QA/ */
+
+    background: linear-gradient(45deg, rgba(65, 89, 208, 1.000) 0.000%, rgba(200, 79, 192, 1.000) 50.000%, rgba(255, 205, 112, 1.000) 100.000%)
+}
+.card{
+    width: 700px;
+        /* https://grabient.com/HQThGYBpgdgFgGzXkgtABmARneyHgAmdLaHPAxOfTOYm4OtTQu6dAVg+mJiA/ */
+
+    background: linear-gradient(45deg, rgba(252, 142, 197, 1.000) 0.000%, rgba(255, 141, 211, 1.000) 25.000%, rgba(255, 161, 216, 1.000) 50.000%, rgba(255, 193, 210, 1.000) 75.000%, rgba(255, 224, 195, 1.000) 100.000%);
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+}
+/* scroll bar */
+::-webkit-scrollbar{
+    background-color:rgb(200, 78, 204);
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{  
+    /* https://grabient.com/HQNhE4BpgFhBmaIDsJowIzOvC0BMArIUhvtKjBRgByQaw1TDwAMr0NM+QA/ */
+
+    background: linear-gradient(45deg, rgba(65, 89, 208, 1.000) 0.000%, rgba(200, 79, 192, 1.000) 50.000%, rgba(255, 205, 112, 1.000) 100.000%);
+    border-radius: 100px;
+}
