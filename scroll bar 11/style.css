@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+.scroll-container {
+  background-color: black;
+  width: 25rem;
+  padding: 50px;
+  margin: 20px;
+}
+.scroll-div {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.scroll-object {
+  margin: 30px;
+  padding: 10px;
+}
