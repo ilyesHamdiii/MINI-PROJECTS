@@ -41,8 +41,6 @@ button {
   text-transform: uppercase;
   cursor: pointer;
 }
-
-/* JavaScript */
 div.cursor {
   position: absolute;
   top: 50%;

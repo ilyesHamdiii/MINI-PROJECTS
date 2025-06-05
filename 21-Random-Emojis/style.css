@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+body span {
+  font-size: 10rem;
+  filter: grayscale(1);
+  transition: 1s ease;
+}
+.Emojis:hover {
+  filter: none;
+  transform: scale(1.5);
+  transition: 1s ease;
+}
