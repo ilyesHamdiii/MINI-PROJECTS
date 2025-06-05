@@ -1,49 +1,41 @@
-# 💯 100 JavaScript Mini Projects
+# 100 JavaScript Projects 🚀
 
-A growing collection of mini frontend projects using HTML, CSS, and JavaScript.  
-Each one explores a specific UI, animation, or interactive effect — from clean design to functional components.
+This repository is a personal challenge to build 100 mini JavaScript projects to sharpen frontend and DOM manipulation skills. Each project is self-contained and focuses on a specific concept or interaction.
 
----
+## ✅ Progress
 
-## 🚀 Projects Completed
-
-| #   | Project Title             | Code Folder                    | Live Demo (Coming Soon) |
-| --- | ------------------------- | ------------------------------ | ----------------------- |
-| 01  | Background Image          | `01-bg image`                  | 🔗                      |
-| 02  | Dynamic Loading Animation | `02-dynamic loading animation` | 🔗                      |
-| 03  | Custom Scroll Bar         | `03-custom scroll bar`         | 🔗                      |
-| 04  | Creative Image Effect     | `04-creative img effect`       | 🔗                      |
-| 05  | Custom Button             | `05-custom button`             | 🔗                      |
-| 06  | Creative Nav Menu         | `06-creative nav menu`         | 🔗                      |
-| 07  | Creative Image Hover      | `07-creative image hover`      | 🔗                      |
-| 08  | Card Animation            | `08-card animation`            | 🔗                      |
-| 09  | Creative Tooltip          | `09-creative tooltip`          | 🔗                      |
-| 10  | Accordion                 | `10-Accordion`                 | 🔗                      |
-| 11  | Scroll Bar                | `11-scroll bar`                | 🔗                      |
-| 12  | Img BG Text               | `12-img bg Text`               | 🔗                      |
-| 13  | Scroll Bar Indicator      | `13-scroll bar indicator`      | 🔗                      |
-| 14  | Heart Pop Animation       | `14-heart pop animation`       | 🔗                      |
-| 15  | Background Animation      | `15-background animation`      | 🔗                      |
-| 16  | Auto Text Generator       | `16-auto text generator`       | 🔗                      |
-| 17  | Cursor Trail Effect       | `17-cursor`                    | 🔗                      |
+**25 / 100 Projects Completed**
 
 ---
 
-## 🛠️ Tech Used
+## 📂 Projects
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+| #   | Project Name              |
+| --- | ------------------------- |
+| 01  | BG Image                  |
+| 02  | Dynamic Loading Animation |
+| 03  | Custom Scroll Bar         |
+| 04  | Creative Image Effect     |
+| 05  | Custom Button             |
+| 06  | Creative Nav Menu         |
+| 07  | Creative Image Hover      |
+| 08  | Card Animation            |
+| 09  | Creative Tooltip          |
+| 10  | Accordion                 |
+| 11  | Scroll Bar                |
+| 12  | Image BG Text             |
+| 13  | Scroll Bar Indicator      |
+| 14  | Heart Pop Animation       |
+| 15  | Background Animation      |
+| 16  | Auto Text Generator       |
+| 17  | Custom Cursor             |
+| 18  | Video Trailer Popup       |
+| 19  | Dark Mode Toggler         |
+| 20  | Animated Navigation       |
+| 21  | Random Emojis             |
+| 22  | Fade Out Effect           |
+| 23  | Simple Calculator         |
+| 24  | Copy and Move Text        |
+| 25  | Progress Bar              |
 
 ---
-
-## 📌 What's Next?
-
-- Add Live Demo links (Netlify / GitHub Pages / Vercel)
-- Reach project 25 milestone
-- Start merging mini projects into larger components
-- Prep for MERN stack shift 🔥
-
----
-
-**Follow the grind. Trust the process. Build the skill.**
