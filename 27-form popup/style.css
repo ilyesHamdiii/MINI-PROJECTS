@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 100%;
+  width: 100%;
+  border: 2px white solid;
+}
+h1 {
+  padding: 20px;
+  font-family: sans-serif;
+  margin-top: 0%;
+  font-size: 2rem;
+  color: white;
+}
+.content {
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  width: 600px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  background-color: transparent blur();
+  animation: popin 0.6s ease-out forwards;
+}
+input {
+  margin: 25px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+p {
+  margin-bottom: 10%;
+  padding: 40px;
+  color: white;
+  font-size: 1rem;
+  width: 60%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5 ease;
+}
+.btn {
+  background-color: transparent;
+  width: 120px;
+  height: 60px;
+  top: 60%;
+  left: 47%;
+  position: absolute;
+  border: 3px solid white;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: transparent;
+  color: black;
+}
+legend {
+  top: 30px;
+  left: 30px;
+  color: rgb(13, 13, 13);
+  position: absolute;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 10px;
+}
+label {
+  padding: 10px;
+  position: relative;
+  margin-bottom: 0px;
+  bottom: -30px;
+  text-align: left;
+  margin-left: 17px;
+  text-transform: uppercase;
+  color: red;
+}
+form {
+  position: absolute;
+  z-index: 1;
+}
+.input {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: rgb(0, 0, 0) 2px solid;
+}
+.submit {
+  border: 3px solid rgb(0, 0, 0);
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 15px;
+  left: -px;
+  position: relative;
+  background-color: red;
+  width: 200px;
+}
+.close {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.load {
+  position: absolute;
+  border: 2px solid white;
+  background-color: red;
+}
+@keyframes popin {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

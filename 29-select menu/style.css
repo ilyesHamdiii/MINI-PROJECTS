@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkblue;
+  width: 100%;
+}
+select {
+  width: 300px;
+  height: 100px;
+  background-color: lightblue;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.body {
+  background-color: darkblue;
+}
+img {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 33%;
+  left: 24%;
+}
+
+ul li {
+  list-style: none;
+}
+option {
+  width: 300px;
+  background-color: lightblue;
+  padding: 25px;
+  border: 2px solid darkblue;
+}
+.btn {
+  position: absolute;
+  z-index: 1;
+  top: 33%;
+  right: 40.8%;
+  background: url(arrow.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: 2px solid transparent;
+}

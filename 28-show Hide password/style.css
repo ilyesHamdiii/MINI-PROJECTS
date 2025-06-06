@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* https://grabient.com/HQNgHATANMAsYFYYQrKBaADMAzARjA2wgE4QZMJC5YSYEB2TCsZiYMhqPYTBN3BBxA/ */
+
+  background: conic-gradient(
+    from 20deg,
+    rgba(95, 52, 54, 1) 0deg,
+    rgba(93, 67, 54, 1) 40deg,
+    rgba(100, 90, 53, 1) 80deg,
+    rgba(114, 119, 53, 1) 120deg,
+    rgba(133, 148, 53, 1) 160deg,
+    rgba(157, 174, 52, 1) 200deg,
+    rgba(182, 192, 52, 1) 240deg,
+    rgba(207, 199, 52, 1) 280deg,
+    rgba(228, 194, 52, 1) 320deg,
+    rgba(244, 179, 51, 1) 360deg
+  );
+}
+input {
+  padding: 20px;
+  width: 300px;
+  height: 30px;
+  text-transform: uppercase;
+  left: 50px;
+}
+.btn {
+  height: 60px;
+  width: 60px;
+}
+#eye {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: -45px;
+  top: 20px;
+  cursor: pointer;
+  color: gray;
+}
+.container {
+  width: 400px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#eye:hover {
+  color: blue;
+}
