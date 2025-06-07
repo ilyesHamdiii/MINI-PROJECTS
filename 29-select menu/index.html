@@ -1,23 +1,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Select Menu</title>
+    <title>Social Media Menu Select</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-        <ul>
-            <img src="facebook.png" alt=""><li><option value="facebook" class="option">facebook</option></li><button class="btn"></button>
-            <li><option value="instagram" class="option"><span>facebook</span></option></li>
-            <li><option value="pinterest" class="option">pinterest</option></li>
-            <li><option value="twitter" class="option">twitter</option></li>
-            <li><option value="whatsapp" class="option">whatsapp</option></li>
-        
+    <header>
+      <div class="selector">
+        <div id="selectField">
+          <p id="selectText">Select Social Media</p>
+          <img src="images/arrow.png" id="arrowIcon" />
+        </div>
+
+        <ul id="list" class="hide">
+          <li class="options">
+            <img src="facebook.png" />
+            <p>Facebook</p>
+          </li>
+          <li class="options">
+            <img src="instagram.png" />
+            <p>Instagram</p>
+          </li>
+          <li class="options">
+            <img src="pinterest.png" />
+            <p>Pinterest</p>
+          </li>
+          <li class="options">
+            <img src="twitter.png" />
+            <p>Twitter</p>
+          </li>
+          <li class="options">
+            <img src="whatsapp.png" />
+            <p>Whatsapp</p>
+          </li>
+          <li class="options">
+            <img src="youtube.png" />
+            <p>YouTube</p>
+          </li>
         </ul>
-    
-      </select>
-    </div>
+      </div>
+    </header>
+
     <script src="app.js"></script>
   </body>
 </html>
