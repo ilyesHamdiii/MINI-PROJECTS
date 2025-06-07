@@ -56,4 +56,4 @@ A growing collection of creative front-end micro-projects using **HTML, CSS, and
 
 ## 🗂️ Folder Structure
 
-Each project lives in its own folder:
+Each project lives in its own folder:)
