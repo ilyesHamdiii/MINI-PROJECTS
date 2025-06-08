@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random Image Generator</title>
+    <style>
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px;
+        justify-content: center;
+      }
+
+      img {
+        border-radius: 8px;
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+
+    <script>
+      const container = document.querySelector(".content");
+      const rows = 5;
+      const count = rows * 3;
+
+      for (let i = 0; i < count; i++) {
+        const img = document.createElement("img");
+        const id = Math.floor(Math.random() * 1000);
+        img.src = `https://picsum.photos/seed/${id}/300/200`;
+        img.alt = "Random image";
+        container.appendChild(img);
+      }
+    </script>
+  </body>
+</html>

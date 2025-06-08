@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+}
+.container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  transition: 1s ease-in;
+}
+span {
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  color: white;
+}
+.purple {
+  background-color: purple;
+  border: 2px solid white;
+}
+.blue {
+  background-color: blue;
+  border: 2px solid white;
+}
+.red {
+  background-color: red;
+  border: 2px solid white;
+}
+.green {
+  background-color: green;
+  border: 2px solid white;
+}
+.yellow {
+  background-color: purple;
+  border: 2px solid white;
+}
+.teal {
+  background-color: teal;
+  border: 2px solid white;
+}
