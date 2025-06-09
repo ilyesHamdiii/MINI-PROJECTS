@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(6, 6, 78);
+}
+input {
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 15px;
+  left: -px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+}
+.btn {
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 15px;
+  left: -px;
+  position: relative;
+  background-color: red;
+  width: 100px;
+}
+.container {
+  margin-top: 5px;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: justify;
+}
+p {
+  width: 500px;
+}
+mark {
+  background: yellow;
+}
