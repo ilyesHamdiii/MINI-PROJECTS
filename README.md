@@ -59,6 +59,8 @@ These projects are designed to strengthen front-end development skills by focusi
 | 48  | Search Bar                       | ✅ New         |
 | 49  | Custom Range                     | ✅ New         |
 | 50  | User-Friendly Feedback           | ✅ New         |
+| 51  | Eye Follower                     | ✅ New         |
+| 52  | Rounded Nav Bar                  | ✅ New         |
 
 ---
 
